@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "name" : "roni",
+        "roleId" : 2,
+        "salary" : 5000
+    },
+    {
+        "id" : 2,
+        "name" : "beni",
+        "roleId" : 1,
+        "salary" : 4000
+    },
+    {
+        "id" : 3,
+        "name" : "avi",
+        "roleId" : 1,
+        "salary" : 3000
+    },
+    {
+        "id" : 4,
+        "name" : "david",
+        "roleId" : 2,
+        "salary" : 2000
+    },
+    {
+        "id" : 5,
+        "name" : "moshe",
+        "roleId" : 2,
+        "salary" : 1000
+    }
+]

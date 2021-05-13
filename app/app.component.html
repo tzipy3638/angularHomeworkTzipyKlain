@@ -1,0 +1,16 @@
+<button  (click)="showWorkersClicked()">show workers</button>
+<button  (click)="showRolesClicked()">show roles</button>
+<div *ngIf="status==0">workers: <br/>
+  <ul>
+    <li *ngFor="let worker of workers">
+      {{ worker.name }}
+    </li>
+  </ul>
+</div>
+<div *ngIf="status==1">roles: <br/>
+  <ul>
+    <li *ngFor="let role of roles">
+      {{ role.desc }} , {{role.avg}}
+    </li>
+  </ul>
+</div>
